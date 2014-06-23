@@ -52,8 +52,8 @@ X = np.array(X) # (5000, 400) : 5000 20x20 images of digits 0:9
 y = np.array(y) # (5000, 1) : labels (1:10)
 y = y[:, 0]     # now (5000,)
 
-Theta1 = np.array(Theta1) # (5000, 400) : 5000 20x20 images of digits 0:9
-Theta2 = np.array(Theta2) # (5000, 1) : labels (1:10)
+Theta1 = np.array(Theta1) # (25, 401)
+Theta2 = np.array(Theta2) # (10, 26)
 
 # randomly select 100/5000 images and plot them
 RP = np.random.permutation(5000)
